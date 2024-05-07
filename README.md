@@ -2,50 +2,82 @@
 
 ## Project Overview
 
-This project provides an in-depth analysis of betting trends in Major League Soccer (MLS) from 2017 to 2022, focusing on how different factors impact the accuracy of betting odds and returns. By analyzing data from multiple betting platforms like Bet365 and BetWay, the project seeks to uncover patterns in the betting landscape that could help bettors make more informed decisions. The project emphasizes predictive modeling techniques, exploring how various trends and biases can be used to maximize returns or better evaluate the probability of match outcomes.
+This project examines Major League Soccer (MLS) gambling trends between 2017 and 2022 to uncover profitable betting strategies. By analyzing historical betting odds, point spreads, and game results, the study aims to reveal patterns that could improve predictions and support bettors' decision-making.
 
 ## Objectives
 
-Identify Key Trends: Explore how betting odds and returns have varied across different seasons and platforms.
+Analyze Betting Trends: Identify patterns in betting odds and game outcomes for MLS teams to uncover valuable betting strategies.
 
-Analyze Predictive Factors: Investigate the impact of team statistics, venue effects, and consecutive wins/losses on betting outcomes.
+Predictive Modeling: Create predictive models that utilize historical betting odds to forecast game results.
 
-Develop Predictive Models: Create predictive models that use historical betting and game data to forecast match outcomes and evaluate the reliability of various platforms.
+Statistical Insights: Provide analytical insights into how betting odds and spreads influence game predictions.
 
 ## Data Sources
 
-MLS 2017-2022 Betting Data: Contains data on betting odds, returns, and game results from various betting platforms for the MLS seasons between 2017 and 2022. The data provides comprehensive information for analysis.
+MLS Betting Data: Comprehensive data covering betting odds, point spreads, and game results for MLS games from 2017 to 2022.
 
 ## Methodology
 
-Data Collection: Scraped data from betting websites and gathered historical game results to create a robust dataset.
+## Data Cleaning and Transformation:
 
-Data Cleaning and Transformation: Handled missing and incorrect values, standardized column types, and created new features for analysis.
+Standardized and removed duplicate records to ensure data consistency.
 
-Exploratory Data Analysis (EDA):
+Created new features to highlight key betting trends across MLS teams.
 
-Visualized trends and patterns in betting odds and returns across different seasons and teams.
+Aggregated data to analyze overall league trends and team-specific patterns.
 
-Investigated venue effects, team performance statistics, and hot/cold streaks.
+## Exploratory Data Analysis (EDA):
+
+Visualized trends in odds and spreads for MLS teams over several seasons.
+
+Identified correlations between betting odds, spreads, and game outcomes.
+
+Investigated betting patterns for both favorites and underdogs to identify potential biases.
 
 ## Predictive Modeling:
 
-Developed machine learning models to predict match outcomes using historical betting data.
+Developed predictive models using historical betting odds and spreads to forecast game outcomes.
 
-Evaluated model accuracy and performance using validation and test sets.
+Evaluated model performance through cross-validation and test datasets.
+
+Applied feature selection methods to identify key predictors of betting success.
 
 ## Visualization:
 
-Created graphical representations of trends using ggplot2 and other visualization tools.
+Created comprehensive visualizations to highlight trends in betting odds and game outcomes.
+
+Leveraged ggplot2 to provide advanced graphical representations of betting trends.
 
 ## Key Findings
 
-Betting Biases: Identified potential biases in betting platforms due to streaks (hot hand effect), venue effects, and team reputations.
+## Betting Patterns:
 
-Predictive Models: Models demonstrated significant accuracy in forecasting match outcomes, revealing patterns that bettors could leverage.
+Favorites vs. Underdogs: There was a strong bias towards betting on favorites, which generally reflected accurate odds predictions. However, betting on underdogs in specific high-stakes matches showed higher 
+returns, especially when the favorites were on losing streaks.
 
-Strategic Insights: Statistical analysis provided actionable insights into betting trends, enabling bettors to adjust their strategies and maximize returns.
+Point Spread Trends: Point spread trends revealed profitable opportunities when betting on underdogs that historically outperformed their odds. Notably, certain teams consistently covered the spread even as underdogs.
+
+Totals Market: The totals market showed a significant trend where defensive teams repeatedly led to low-scoring matches, making under bets more profitable than over bets.
+
+Model Performance:
+
+Predictive models leveraging historical betting odds and spreads proved effective in forecasting game outcomes. Models that integrated historical team performance data alongside betting odds achieved higher 
+prediction accuracy.
+
+Strategic Insights:
+
+Monitoring betting odds adjustments provided valuable insights into potential market manipulation or insider knowledge, particularly in matches with sudden odds shifts.
+Point spread analysis showed that certain teams consistently covered spreads, offering betting opportunities on underdog lines.
 
 ## Conclusion
 
-This project provides a comprehensive analysis of MLS betting trends from 2017 to 2022, uncovering patterns that affect betting odds and returns. The results demonstrate the importance of strategic betting, showing how data-driven approaches can yield profitable betting strategies and more accurate predictions.
+The MLS-Gambling-Trends-Analysis-2017-2022 project provides comprehensive insights into MLS betting trends:
+
+Betting odds generally align with match outcomes, but strategic opportunities arise when following underdog trends.
+
+Predictive models can identify matches where historical odds adjustments signal profitable wagering opportunities.
+
+In-depth data analysis offers valuable guidance for bettors seeking to refine their strategies through historical MLS betting trends.
+
+This project demonstrates the potential of using statistical models and advanced data analysis techniques to identify profitable betting trends in MLS games, empowering bettors to make more informed decisions.
+
