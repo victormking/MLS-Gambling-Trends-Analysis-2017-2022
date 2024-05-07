@@ -6,7 +6,8 @@ This project investigates gambling trends in Major League Soccer (MLS) games fro
 
 ## Objectives
 
-## Analyze Betting Odds: Identify how betting odds are influenced by team performance and other external factors.
+## Analyze Betting Odds: 
+Identify how betting odds are influenced by team performance and other external factors.
 
 Predictive Modeling: Develop predictive models to anticipate game results based on historical betting trends and match statistics.
 Statistical Insights: Provide data-driven analysis of betting trends to help bettors make informed decisions.
