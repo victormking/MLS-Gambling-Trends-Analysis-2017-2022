@@ -9,6 +9,7 @@ This project investigates gambling trends in Major League Soccer (MLS) games fro
 Analyze Betting Odds: Identify how betting odds are influenced by team performance and other external factors.
 
 Predictive Modeling: Develop predictive models to anticipate game results based on historical betting trends and match statistics.
+
 Statistical Insights: Provide data-driven analysis of betting trends to help bettors make informed decisions.
 
 ## Data Sources MLS Data: 
@@ -26,8 +27,12 @@ Visualization: Created comprehensive visualizations using ggplot2 and other tool
 
 ## Key Findings
 Betting Patterns: Certain betting odds are closely linked with game outcomes, indicating potential predictive power.
+
 Predictive Models: Machine learning models provided significant accuracy in forecasting game results based on betting odds and team statistics.
+
 Strategic Insights: Statistical analysis offers strategic insights to bettors for making more informed gambling decisions.
-Conclusion
+
+## Conclusion
+
 This project offers a comprehensive analysis of betting trends in MLS games, demonstrating how historical odds and performance metrics can inform better betting strategies. The results can help bettors understand the impact of various factors on game outcomes and improve their predictions.
 
