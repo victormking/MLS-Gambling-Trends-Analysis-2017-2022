@@ -17,8 +17,11 @@ Historical betting odds, game results, and team performance metrics from MLS sea
 
 ## Methodology
 Data Cleaning and Transformation: Managed missing or incorrect values, standardized data types, and created new features for analysis.
+
 Exploratory Data Analysis (EDA): Visualized trends and patterns in betting odds and game results over time. Analyzed correlations between betting odds and match outcomes.
+
 Predictive Modeling: Developed models to predict game results using betting odds, performance metrics, and team statistics.
+
 Visualization: Created comprehensive visualizations using ggplot2 and other tools to uncover patterns in betting trends.
 
 ## Key Findings
